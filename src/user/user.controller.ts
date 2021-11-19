@@ -10,4 +10,6 @@ export class UserController {
     create(@Body() userDto: CreateUserDto){
         return this.userService.createUser(userDto);
     }
+
+    
 }
